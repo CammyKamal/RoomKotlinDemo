@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Kotlin Database Queries Demo"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/insertbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Insert Query" />
+
+            <Button
+                android:id="@+id/fetchbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Query" />
+
+            <Button
+                android:id="@+id/updatebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Query" />
+
+            <Button
+                android:id="@+id/deletebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Record Query" />
+
+            <Button
+                android:id="@+id/deleteallbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete All Records Query" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
